@@ -1,0 +1,73 @@
+{
+  "meta": {
+    "title": "Kyiv flower price bands 2026",
+    "title_uk": "Ціни на квіти в Києві 2026",
+    "currency": "UAH",
+    "city": "Kyiv",
+    "updated": "2026-09-08",
+    "methodology": "Marketplace catalog snapshot (BuketGo) + public competitor list prices same day. Ranges change; treat as research bands, not a quote.",
+    "license": "MIT",
+    "source_article": "https://buketgo.com.ua/blog/tsiny-na-kvity-kyiv-2026",
+    "publisher": {
+      "name": "BuketGo",
+      "url": "https://buketgo.com.ua",
+      "type": "flower delivery marketplace"
+    }
+  },
+  "market_bands_ai_overview": {
+    "note": "Generic SERP AI Overview bands cited from major delivery shops (Dicentra / Flowers.ua style)",
+    "small_uah": { "min": 600, "max": 890 },
+    "medium_large_uah": { "min": 1400, "max": 3500 },
+    "xl_uah": { "min": 4000, "max": null }
+  },
+  "buketgo_catalog_snapshot": {
+    "sku_count": 80,
+    "price_min_uah": 1499,
+    "price_max_uah": 16699,
+    "price_median_uah": 2999,
+    "delivery": {
+      "city": "Kyiv",
+      "listed_shipping_uah": 0,
+      "same_day_note": "Subject to daily cutoff (~14:00–16:00 guidance)"
+    },
+    "rose_stem_bands_uah": [
+      { "stems": 11, "min": 1499, "max": 1899 },
+      { "stems": 15, "min": 1699, "max": 2999 },
+      { "stems": 25, "min": 2099, "max": 3299, "example": { "sku_hint": "25 red roses 60cm", "price": 2399 } },
+      { "stems": 51, "min": 3899, "max": 5999 },
+      { "stems": 101, "min": 7499, "max": 10899 }
+    ],
+    "formats_uah": {
+      "mono_from": 1499,
+      "mix": { "min": 1699, "max": 4699 },
+      "box": { "min": 1899, "max": 10899 }
+    }
+  },
+  "competitor_list_prices_same_day": [
+    {
+      "brand": "Kvitochka",
+      "url": "https://kvitochka.ua/uk/bukety-iz-roz",
+      "notes": "FAQ bands",
+      "smallest_rose_bouquet_uah": { "min": 1000, "max": 1590 },
+      "medium_uah": { "min": 2000, "max": 4000 },
+      "kyiv_timed_delivery_fee_uah": { "min": 250, "max": 290 }
+    },
+    {
+      "brand": "UFL",
+      "url": "https://www.ufl.ua/",
+      "prices_from_uah": 690,
+      "free_kyiv_delivery_from_uah": 1000
+    },
+    {
+      "brand": "Flowers.ua",
+      "url": "https://flowers.ua/ua/rozy",
+      "marketing_roses_from_uah": 700
+    }
+  ],
+  "buyer_risk_flags": [
+    "photo_vs_reality_gap",
+    "late_same_day_slot",
+    "substitution_without_consent",
+    "promo_from_price_not_comparable_to_stem_count"
+  ]
+}
